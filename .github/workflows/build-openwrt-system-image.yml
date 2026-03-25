@@ -21,7 +21,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "fine3399"
         type: choice
         options:
           - all
@@ -284,7 +284,7 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "Qoo-330ml"
         type: choice
         options:
           - ophub
