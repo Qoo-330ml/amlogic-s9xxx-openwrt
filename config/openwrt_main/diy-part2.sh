@@ -48,6 +48,22 @@ fi
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+
+# Add iStore feed and packages
+echo "Adding iStore feed..."
+./scripts/feeds update istore
+./scripts/feeds install -a -p istore
+
+# Install iStore core packages
+./scripts/feeds install luci-app-store
+./scripts/feeds install luci-lib-taskd
+./scripts/feeds install luci-lib-xterm
+
+# 在"Additional customizations"部分添加
+echo "Ensuring 5G modem tools are installed..."
+./scripts/feeds install modemmanager
+./scripts/feeds install libqmi
+./scripts/feeds install libmbim
 #
 # Apply patches
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
