@@ -8,7 +8,7 @@
 
 # Add a custom feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git istore https://github.com/linkease/istore;main' feeds.conf.default
+# sed -i '$a src-git istore https://github.com/linkease/istore;main' feeds.conf.default
 
 # Remove unnecessary packages
 # rm -rf package/utils/{ucode,fbtest}
