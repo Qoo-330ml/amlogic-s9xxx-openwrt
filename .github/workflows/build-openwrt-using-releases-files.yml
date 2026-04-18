@@ -16,8 +16,8 @@ on:
         type: choice
         options:
           - openwrt_main
-          - immortalwrt_master
           - lede_master
+          - immortalwrt_master
       openwrt_board:
         description: "Select device board"
         required: false
@@ -48,6 +48,7 @@ on:
           - bdy-g18-pro
           - beikeyun
           - boca-tcn100
+          - boca-tcn200
           - cd1000
           - chainedbox
           - cm3588-nas
@@ -61,6 +62,7 @@ on:
           - eaidk-610
           - emb3531
           - fine3399
+          - firefly-itx-3588j
           - firefly-jd4
           - firefly-rk3399
           - fmx1-pro
@@ -84,6 +86,7 @@ on:
           - king3399
           - kylin3399
           - lckfb-tspi
+          - lckfb-tspi-3m
           - leez
           - lx-r3s
           - lyt-t68m
