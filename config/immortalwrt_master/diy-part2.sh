@@ -45,6 +45,12 @@ fi
 
 # ------------------------------- Additional customizations -------------------------------
 #
+# Add 5G-Modem-Support feed for 5G module support
+git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
+#
+# Add atc feed for 5G module support
+git clone https://github.com/mrhaav/openwrt.git package/atc
+#
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
