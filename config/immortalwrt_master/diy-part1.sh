@@ -12,5 +12,6 @@
 # Remove unnecessary packages
 # rm -rf package/emortal/{autosamba,ipv6-helper}
 
-git clone https://github.com/FUjr/QModem.git package/luci-app-qmodem
-git clone https://github.com/FUjr/QModem.git package/luci-app-qmodem-sms
+# Add qmodem feed for 5G module support
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-sms
