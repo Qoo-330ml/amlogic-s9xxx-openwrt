@@ -45,9 +45,6 @@ fi
 
 # ------------------------------- Additional customizations -------------------------------
 #
-# Add qmodem feed for 5G module support
-git clone https://github.com/FUjr/QModem.git package/qmodem
-#
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
