@@ -46,7 +46,7 @@ fi
 # ------------------------------- Additional customizations -------------------------------
 #
 # Add 5G-Modem-Support feed for 5G module support
-git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
+# git clone https://github.com/Siriling/5G-Modem-Support.git package/5G-Modem-Support
 #
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
