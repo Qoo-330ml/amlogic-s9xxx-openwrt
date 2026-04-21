@@ -46,6 +46,10 @@ fi
 #
 # ------------------------------- Main source ends -------------------------------
 
+
+git clone https://github.com/FUjr/QModem.git package/qmodem
+
+
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
