@@ -12,3 +12,5 @@
 # Remove unnecessary packages
 # rm -rf package/emortal/{autosamba,ipv6-helper}
 
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-sms
