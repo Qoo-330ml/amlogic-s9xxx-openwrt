@@ -12,3 +12,5 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem
+git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-sms
