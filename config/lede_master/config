@@ -6557,7 +6557,7 @@ CONFIG_PACKAGE_git=y
 # CONFIG_PACKAGE_comgt-directip is not set
 # CONFIG_PACKAGE_comgt-ncm is not set
 # CONFIG_PACKAGE_modemband is not set
-# CONFIG_PACKAGE_umbim is not set
+CONFIG_PACKAGE_umbim=y
 # CONFIG_PACKAGE_uqmi is not set
 # end of WWAN
 
