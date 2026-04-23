@@ -14,4 +14,4 @@
 
 # git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem
 # git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-sms
-git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-next
+# git clone https://github.com/FUjr/QModem.git package/lean/luci-app-qmodem-next
